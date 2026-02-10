@@ -7,7 +7,6 @@ pipeline {
 
     environment  {
         SCANNER_HOME=tool 'sonar-scanner'
-        NVD_API_KEY = credentials('nvd_api')
         AWS_ACCOUNT_ID = credentials('aws-account-id')
         AWS_DEFAULT_REGION = 'us-east-1'
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/"
@@ -23,7 +22,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git credentialsId: 'github-creds', 
-                    url: 'https://github.com/your-username/your-repo', 
+                    url: 'https://github.com/farooq-devops/mern-end-to-end-devsecops-with-terraform-eks-and-jenkins-public.git', 
                     branch: 'main'
             }
         }
@@ -137,7 +136,7 @@ pipeline {
 
         stage('Update Deployment Files') {
             environment {
-                GIT_REPO_NAME = "your-repo-name"
+                GIT_REPO_NAME = "mern-end-to-end-devsecops-with-terraform-eks-and-jenkins-public"
                 GIT_USER_EMAIL = credentials('git-user-email')
             }
             steps {
