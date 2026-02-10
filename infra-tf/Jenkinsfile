@@ -22,7 +22,7 @@ pipeline {
             steps {
                 git credentialsId: 'github-creds', 
                     branch: 'main', 
-                    url: 'https://github.com/your-username/your-repo.git'
+                    url: 'https://github.com/farooq-devops/mern-end-to-end-devsecops-with-terraform-eks-and-jenkins-public.git'
             }
         }
         stage('Init') {
