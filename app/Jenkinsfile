@@ -170,7 +170,7 @@ pipeline {
                                             git commit -m "Update deployment image for ${service} to version ${BUILD_NUMBER}" || {
                                                 echo "No changes to commit for ${service}"
                                             }
-                                            git push "@github.com/${GIT_USERNAME}/${GIT_REPO_NAME}.git">https://${GIT_USERNAME}:${GIT_TOKEN}@github.com/${GIT_USERNAME}/${GIT_REPO_NAME}.git" HEAD:main
+                                            git push https://${GIT_USERNAME}:${GIT_TOKEN}@github.com/${GIT_USERNAME}/${GIT_REPO_NAME}.git HEAD:main
                                         '''
                                     }
                                 }
