@@ -13,7 +13,6 @@ spec:
       labels:
         app: backend
     spec:
-      serviceAccountName: ecr-access-sa
       containers:
         - name: backend
           image: 115707860038.dkr.ecr.us-east-1.amazonaws.com/backend:8
