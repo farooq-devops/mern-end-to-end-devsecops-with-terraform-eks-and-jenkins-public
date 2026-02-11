@@ -77,7 +77,7 @@ pipeline {
                     dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
                 }
             }
-
+        }
         stage('File System Scan With Trivy') {
             steps {
                 dir('app') {
