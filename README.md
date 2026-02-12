@@ -9,7 +9,7 @@
 
 A comprehensive DevSecOps pipeline implementation for MERN stack applications using Jenkins, Terraform, Amazon EKS, ArgoCD, and integrated security scanning tools.
 # For Detailed Step by Step Guide
-You can find detailed step by step guide on creating this project on the [Medium post I created HERE](https://towardsaws.com/how-to-build-a-three-tier-end-to-end-devsecops-pipeline-from-code-to-production-with-zero-3af51213161b?source=friends_link&sk=62098918db6a1359b8f429e7e491f110).
+You can find detailed step by step guide on creating this project on the [Medium post I created HERE](https://medium.com/@mohammedfarooq9/how-to-build-a-three-tier-end-to-end-devsecops-pipeline-from-code-to-production-with-zero-1ac513d6954b).
 
 ## 🏗️ Architecture Overview
 
@@ -102,7 +102,7 @@ Before starting, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/aatikah/mern-end-to-end-devsecops-with-terraform-eks-and-jenkins-public.git
+git clone https://github.com/farooq-devops/mern-end-to-end-devsecops-with-terraform-eks-and-jenkins-public.git
 cd public end-to-end-devsecops
 ```
 
@@ -307,5 +307,4 @@ If you have any questions or need help with setup:
 ---
 
 **⭐ If you find this project helpful, please give it a star!**
-- Support me- [buymeacoffee.com/aatikah](https://buymeacoffee.com/aatikah)
-- Connect with me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/abdulhakeem-sulaiman/)
+- Connect with me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/farooqmohammed9/)
