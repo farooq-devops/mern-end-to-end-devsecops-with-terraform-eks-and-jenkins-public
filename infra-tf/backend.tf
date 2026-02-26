@@ -8,7 +8,7 @@ terraform {
 
 
 backend "s3" {
-    bucket         = "end-to-end-devsecops1-tf"
+    bucket         = "end-to-end-devsecops11-tf"
     region         = "us-east-1"
     key            = "devsecops-infra/terraform.tfstate"
     dynamodb_table = "end_to_end_devsecops_tf_Lock_State_Files"
